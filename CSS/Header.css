@@ -1,0 +1,103 @@
+header
+{
+    height: 8vh;
+    background-color: #303030;
+}
+
+header ul
+{
+    list-style: none;
+}
+
+header .nav-bar
+{
+    display: flex;
+    padding-top: 6px;
+}
+
+header .nav-bar .logo
+{
+    width: 10%;
+    text-align: center;
+}
+
+header .nav-bar .logo .pic
+{
+    height: 60px;
+    margin-left: 10px;
+}
+
+header .nav-bar .nav-btn
+{
+    display: flex;
+    list-style: none;
+    width: 70%;
+}
+
+header .nav-link a
+{
+    color: aliceblue !important;
+    padding: 10px;
+    letter-spacing: 1px;
+    display: flex;
+    transition: .5s;
+    border-radius: 15px;
+}
+
+header .nav-btn a:hover 
+{
+    background-color: #f7931a;
+}
+
+header .nav-bar .btn
+{
+    list-style: none;
+    width: 20%;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+header .nav-bar .btn a
+{
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+
+header .nav-bar .btn li
+{
+    transition: transform 0.5s ease;
+    font-size:larger;
+    margin-right: 20px;
+}
+
+header .nav-bar .btn .log-link a
+{
+    background-color:#f7931a;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+header .nav-bar .btn .sign-link a
+{
+    border-radius: 15px;
+    border-color: #f7931a !important;
+    border: 1px solid;
+    transition: transform 0.5s ease;
+    padding: 5px 10px;
+}
+
+header .nav-bar .btn li:hover
+{
+    transform: scale(1.1);
+}
+
+header .nav-bar .btn .log-link a:hover
+{
+    color: aliceblue;
+}
+
+header .nav-bar .btn .sign-link a:hover
+{
+    color: #f7931a;
+}
